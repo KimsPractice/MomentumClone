@@ -22,7 +22,7 @@ function genRandom(){
 
 function init() {
   const radNum = genRandom();
-  pauntImage(radNum);
+  pauntImage(radNum)
 }
 
 init();
