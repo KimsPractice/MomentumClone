@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>make TODO List</title>
   </head>
   <body>
-    <div class="js-clock">
-      <h1></h1>
+    <div class="container">
+      <div class="js-clock text">
+        <h1></h1>
+      </div>
+
+      <form class="js-form form">
+        <input type="text" placeholder="이름을 입력하시오" />
+      </form>
+      <h4 class="js-greeting greeting text"></h4>
+
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+
+      <ul class="js-toDoList"></ul>
+      <span class="js-date text"></span>
+      <span class="js-weather"></span>
     </div>
-
-    <form class="js-form form">
-      <input type="text" placeholder="이름을 입력하시오">
-    </form>
-    <h4 class="js-greeting greeting"></h4>
-
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do">
-    </form>
-
-    <ul class="js-toDoList">
-
-    </ul>
-    <span class="js-date"></span>
-    <span class="js-weather"></span>
     <script src="clock.js"></script>
     <script src="greeting.js"></script>
     <script src="todo.js"></script>
     <script src="bground.js"></script>
     <script src="weather.js"></script>
-
   </body>
 </html>
